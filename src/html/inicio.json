@@ -1,0 +1,152 @@
+[
+    {
+        "id": 1,
+        "nombre": "Pokemon Escarlata/Purpura DLC",
+        "imagen": "pokemonEscarlataDLC.jpg",
+        "precio": "57.13",
+        "compania": "nintendo",
+        "novedad": "si",
+        "video": "https://www.youtube.com/embed/N9DE1fJABPo",
+        "descripcion": "Pokemon Escarlata/Purpura DLC es un emocionante juego de aventuras de la franquicia Pokémon que te sumerge en un colorido mundo lleno de misterio y desafíos. En esta expansión, los jugadores pueden explorar nuevas regiones, capturar criaturas únicas y embarcarse en emocionantes batallas para convertirse en un auténtico Maestro Pokémon. ¡Prepárate para vivir una aventura inolvidable en el emocionante universo de Pokémon!"
+    },
+    {
+        "id": 2,
+        "nombre": "Grand Theft Auto V",
+        "imagen": "GTA5.jpg",
+        "precio": "15.99",
+        "compania": "PlayStation",
+        "novedad": "no",
+        "video":"https://www.youtube.com/embed/QkkoHAzjnUs",
+        "descripcion":"Grand Theft Auto V es un videojuego de acción-aventura de mundo abierto en tercera persona desarrollado por el estudio escocés Rockstar North y distribuido por Rockstar Games."
+    },
+    {
+        "id": 3,
+        "nombre": "Spider-Man Miles Morales",
+        "imagen": "Spiderman.jpg",
+        "precio": "29.90",
+        "compania": "PlayStation",
+        "novedad": "si",
+        "video": "https://www.youtube.com/embed/Q3kfF3XNzw8",
+        "descripcion": "Marvel's Spider-Man: Miles Morales es un videojuego de acción y aventuras desarrollado por Insomniac Games y publicado por Sony Interactive Entertainment para PlayStation 4 y PlayStation 5. Está basado en el superhéroe de Marvel Comics Miles Morales."
+    },
+    {
+        "id": 4,
+        "nombre": "The Legend of Zelda: Tears of the Kingdom",
+        "imagen": "zelda.jpg",
+        "precio": "59.99",
+        "compania": "nintendo",
+        "novedad": "si",
+        "video":"https://www.youtube.com/embed/gp9aY09li1s",
+        "descripcion": "The Legend of Zelda: Tears of the Kingdom es un videojuego de acción-aventura de 2023 de la serie The Legend of Zelda, desarrollado por la filial Nintendo EPD en colaboración con Monolith Soft y publicado por Nintendo para la consola Nintendo Switch."
+    },
+    {
+        "id": 5,
+        "nombre": "Call Of Duty Modern Warfare 2",
+        "imagen": "CallOfDuty.jpg",
+        "precio": "39.99",
+        "compania": "Xbox",
+        "novedad": "no",
+        "video":"https://www.youtube.com/embed/ztjfwecrY8E",
+        "descripcion": "Call of Duty: Modern Warfare II es un videojuego de disparos en primera persona desarrollado por Infinity Ward y publicado por Activision, lanzandose para PlayStation 4, PlayStation 5, Xbox One"
+    },
+    {
+        "id": 6,
+        "nombre": "Atomic Heart",
+        "imagen": "atomic.jpg",
+        "precio": "58.99",
+        "compania": "Xbox",
+        "novedad": "no",
+        "video":"https://www.youtube.com/embed/_tEgeZrOOHM",
+        "descripcion": "Atomic Heart es un videojuego de rol de acción FPS, desarrollado por Mundfish y publicado por Focus Entertainment y 4Divinity. "
+    },
+    {
+        "id": 7,
+        "nombre": "Far Cry 6",
+        "imagen": "FarCry6.jpg",
+        "precio": "19.99",
+        "compania": "PlayStation",
+        "novedad": "no",
+        "video":"https://www.youtube.com/embed/JUgQCnJj-Xc",
+        "descripcion": "Far Cry 6 es un videojuego de disparos en primera persona desarrollado por Ubisoft Toronto y publicado por Ubisoft. Es la sexta entrega principal de la serie Far Cry"
+    },
+    {
+        "id": 8,
+        "nombre": "One Piece Odyssey",
+        "imagen": "onepieceOdyssey.jpg",
+        "precio": "29.99",
+        "compania": "nintendo",
+        "novedad": "si",
+        "video":"https://www.youtube.com/embed/qEQf7PFQqtc",
+        "descripcion": "One Piece Odyssey es un videojuego de rol de 2023 desarrollado por ILCA y publicado por Bandai Namco Entertainment. Como parte de la franquicia One Piece, se lanzó para PlayStation 4, PlayStation 5, Windows y Xbox Series X/S."
+    },
+    {
+        "id": 9,
+        "nombre": "One Piece Odyssey",
+        "imagen": "onepieceOdyssey.jpg",
+        "precio": "29.99",
+        "compania": "Xbox",
+        "novedad": "no",
+        "video":"https://www.youtube.com/embed/qEQf7PFQqtc",
+        "descripcion": "One Piece Odyssey es un videojuego de rol de 2023 desarrollado por ILCA y publicado por Bandai Namco Entertainment. Como parte de la franquicia One Piece, se lanzó para PlayStation 4, PlayStation 5, Windows y Xbox Series X/S."
+    },
+    {
+        "id": 10,
+        "nombre": "One Piece Odyssey",
+        "imagen": "onepieceOdyssey.jpg",
+        "precio": "29.99",
+        "compania": "PlayStation",
+        "novedad": "no",
+        "video":"https://www.youtube.com/embed/qEQf7PFQqtc",
+        "descripcion": "One Piece Odyssey es un videojuego de rol de 2023 desarrollado por ILCA y publicado por Bandai Namco Entertainment. Como parte de la franquicia One Piece, se lanzó para PlayStation 4, PlayStation 5, Windows y Xbox Series X/S."
+    },
+    {
+        "id": 11,
+        "nombre": "Halo Infinite",
+        "imagen": "HaloInfinite.jpg",
+        "precio": "9.99",
+        "compania": "Xbox",
+        "novedad": "si",
+        "video":"https://www.youtube.com/embed/QORZtiws6Sk",
+        "descripcion": "Halo Infinite es un videojuego de disparos en primera persona de la franquicia de videojuegos de ciencia ficción creada por Bungie Studios y actualmente desarrollada por 343 Industries. Es exclusivo para las plataformas Xbox One"
+    },
+    {
+        "id": 12,
+        "nombre": "Ark: Survival Ascended",
+        "imagen": "arkSurvivalAscended.jpg",
+        "precio": "44.99",
+        "compania": "PlayStation",
+        "novedad": "si",
+        "video":"https://www.youtube.com/embed/0gLODoXanog",
+        "descripcion": "Survival Ascended es un videojuego de supervivencia, acción y aventuras desarrollado y publicado por Studio Wildcard y Grove Street Games."
+    },
+    {
+        "id": 13,
+        "nombre": "Tunic",
+        "imagen": "Tunic.jpg",
+        "precio": "33.99",
+        "compania": "Indie",
+        "novedad": "no",
+        "video":"https://www.youtube.com/embed/Q5XpgTO7YN0",
+        "descripcion": "Tunic es un juego de acción-aventura desarrollado por Andrew Shouldice quien es un desarrollador indie Canadiense y publicado por Finji."
+    },
+    {
+        "id": 14,
+        "nombre": "Cult of The Lamb",
+        "imagen": "cultOfTheLamb.jpg",
+        "precio": "23.99",
+        "compania": "Indie",
+        "novedad": "no",
+        "video":"https://www.youtube.com/embed/ctX3jVORkkk",
+        "descripcion": "Cult of the Lamb es un juego de acción y aventuras y de mazmorras desarrollado por el desarrollador independiente Massive Monster y publicado por Devolver Digital."
+    },
+    {
+        "id": 15,
+        "nombre": "Rogue Legacy 2",
+        "imagen": "RogueLegacy2.jpg",
+        "precio": "24.99",
+        "compania": "Indie",
+        "novedad": "no",
+        "video":"https://www.youtube.com/embed/uiV0oo7ZlH8",
+        "descripcion": "Rogue Legacy 2 es un juego de plataformas desarrollado y publicado por el estudio indie Cellar Door Games. Es la secuela de Rogue Legacy, de 2013"
+    }
+]

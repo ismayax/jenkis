@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Jockey+One&family=Luckiest+Guy&family=Noto+Serif:wght@700&family=Passion+One&family=Righteous&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/suscribete.css">
+  <script src="../js/suscribete.js"></script>
+</head>
+
+<body>
+  <!-- navegador con Logo, Inicio, Noticias y Sobre nosotros-->
+  <hr class="Cambiohr">
+  <nav class="navbar  d-flex black" style="align-content: center;">
+    <div class="col-12 col-md-5 col-lg-2 px-4">
+      <a href="../html/Inicio.html">
+        <img class="logo" src="../img/logo1.png">
+      </a>
+    </div>
+    <div class="col-12 col-md-2">
+      <h4></h4>
+    </div>
+    <div class="col-12 col-md-1 col-lg-2 text-center  flex-fill my-2">
+      <a class="quitaHyper letraEspecial" href="../html/Inicio.html"><strong>Inicio</strong></a>
+    </div>
+    <div class="col-12 col-md-1 text-center col-lg-2  flex-fill">
+      <a class="quitaHyper letraEspecial" href="../html/noticiero.html"><strong>Noticias</strong></a>
+    </div>
+    <div class="col-12 col-md-1 text-center col-lg-2  flex-fill my-2">
+      <a class="quitaHyper letraEspecial" href="../html/suscribete.html"><strong>Suscribete</strong></a>
+    </div>
+  </nav>
+  <hr class="Cambiohr">
+  <!-- MIO -->
+  <div class="container-xl">
+    <div class="suscribete">SUSCRIBETE</div>
+    <hr class="primeralinea">
+    <div class="card1"></div>
+    <div class="formulario">
+      <form action="">
+        <h1>REGISTRO</h1>
+        <div class="input-box">
+          <input type="text" placeholder="Nombre de usuario" required>
+          <img class="nombreusuario" height="30px" width="30px" src="../img/usuario.png">
+        </div>
+        <div class="input-box">
+          <input type="text" placeholder="Correo electrónico" required>
+          <img class="candado" height="30px" width="30px" src="../img/candado.png">
+        </div>
+        <div class="input-box">
+          <input type="password" placeholder="Contraseña" required>
+          <img class="correologo" height="30px" width="30px" src="../img/correo.png">
+        </div>
+        <div class="boton">
+          <label><input type="checkbox" required>  Acepto los términos y condiciones de la política de protección de datos.</label>
+        </div>
+        <button type="submit" class="btn">Registrarse</button>
+      </form>
+    </div>
+    <div class="card2"></div>
+    <div>
+      <label class="ventajas">VENTAJAS DE ESTAR SUSCRITO</label>
+      <img class="imgVentajas" height="55px" width="55px" src="../img/logo10.png">
+      <p class="parrafo2">* Recibirás notificaciones *</p>
+      <img class="tick" src="../img/logo15.png" height="40px" width="40px">
+      <p class="parrafo3">* Participaras en sorteos y concursos *</p>
+      <img class="tick2" src="../img/logo15.png" height="40px" width="40px">
+      <p class="parrafo4">* Acceso anticipado a información *</p>
+      <img class="tick3" src="../img/logo15.png" height="40px" width="40px">
+      <p class="parrafo5">* Estarás en una comunidad exclusiva *</p>
+      <img class="tick4" src="../img/logo15.png" height="40px" width="40px">
+      <p class="parrafo6">* Servicio de atención al cliente prioritario *</p>
+      <img class="tick5" src="../img/logo15.png" height="40px" width="40px">
+      </div>
+    <a href="https://mythrillfiction.com/" target="_blank"></a>
+    <div class="sobrenosotros">SOBRE NOSOTROS</div>
+    <div id="probando" class="collapse">
+      <p>      
+      Supervisa y coordina todas las fases del proyecto, asegurando el cumplimiento de plazos y objetivos. 
+      Se encarga de alinear estratégicamente al equipo, gestionar eficientemente recursos, mantener una comunicación 
+      fluida y tomar decisiones clave para el progreso del proyecto.
+      <br>
+      <br>
+      Comprende a fondo las necesidades del cliente y actúa como intermediario entre el cliente y el equipo
+      de desarrollo. Traduce los requisitos del cliente en especificaciones técnicas claras, evalúa proactivamente
+      riesgos y desafíos, y supervisa la calidad de la solución final para garantizar el éxito del proyecto
+      y cumplir con las expectativas del cliente.
+      <br>
+      <br>
+      Aplica experiencia en múltiples lenguajes de programación para desarrollar productos funcionales y de alta
+      calidad. Comprende y implementa soluciones eficientes para requisitos técnicos y funcionales, utilizando
+      tecnologías modernas y mejores prácticas de desarrollo. Se centra en la eficiencia, escalabilidad y en la
+      sostenibilidad del código
+    </p>
+    </div>
+
+    <a data-bs-toggle="collapse" data-bs-target="#probando">
+      <img class="flecha" src="../img/logo18.png" height="90px" width="90px" id="mostrarTexto" onclick="moverFlecha()">
+    </a>
+
+    <div class="participantes">
+    <img class="flechaalejandro" src="../img/logo24.png" height="100px" width="100px">
+    <h2 class="nombrealejandro">Alejandro</h2>
+    <h3 class="especialidad">(Jefe de proyecto)</h3>
+    <img class="flechamaxim" src="../img/logo24.png" height="100px" width="100px">
+    <h2 class="nombremaxim">Maxim</h2>
+    <h3 class="especialidad2">(Analista)</h3>
+    <img class="flechaismail" src="../img/logo24.png" height="100px" width="100px">
+    <h2 class="nombreismail">Ismail</h2>
+    <h3 class="especialidad3">(Programador)</h3>
+    </div>
+
+    <div class="banderas">
+      <img class="chile" src="../img/logo12.png" height="30px" width="30px">
+      <img class="rusia" src="../img/logo11.png" height="30px" width="30px">
+      <img class="marruecos" src="../img/logo13.png" height="30px" width="30px">
+      </div>
+
+    <hr class="segundalinea">
+    
+    <div class="contacte">CONTACTE CON NOSOTROS</div>
+    <img class="soporte" src="../img/logo20.png" height="75px" width="75px">
+    <div class="correo">cuevagaming@info.com</div>
+    <div class="numero">+34 640 802 920</div>
+    <div class="redessociales">REDES SOCIALES</div>
+    <img class="instagram" src="../img/logo14.png" height="65px" width="65px" onclick="redirigirAInstagram()">
+    <img class="twitter" src="../img/logo21.png" height="57px" width="57px" onclick="redirigirATwitter()">
+    <img class="tiktok" src="../img/logo23.png" height="62px" width="62px" onclick="redirigirATiktok()">
+
+    <div class="lineavertical"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+      </script>
+</body>
+
+</html>

@@ -1,0 +1,990 @@
+  /* Establece la altura específica en pantallas grandes */
+  .navbar {
+    height: 110px; /* Ajusta la altura según tus necesidades */
+  }
+
+  /* Ajusta la altura en pantallas más pequeñas utilizando una media query */
+  @media (max-width: 576px) {
+    .navbar {
+      height: 210px; /* Cambia la altura para pantallas más pequeñas (móvil) */
+    }
+  }
+
+.black {
+    background: linear-gradient(to bottom right,#191919, #303030);
+}
+
+.letraEspecial {
+
+    font: 111% sans-serif;
+    color: black;
+    
+
+}
+
+.Cambiohr {
+    border: none;
+    border-top: 4px solid rgb(226, 217, 91);
+    /* Cambia el color y grosor */
+    margin: 0px 0;
+    /* Agrega margen superior e inferior */
+}
+
+.quitaHyper{
+    background: -webkit-linear-gradient(rgb(211, 171, 70),rgb(231, 230, 223));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+}
+
+.letraEspecialN{
+    font: 111% sans-serif;
+    color: black;
+}
+
+.logo {
+    height: 90px;
+    width: 350px;
+}
+.lista {
+    margin-left: 40px;
+    margin-right: 50px;
+    color: #FFFFFF;
+    padding-left: 20px;
+    padding-right: 8px;
+    position: relative;
+    width: 150px;
+    text-align: center;
+}
+
+.idioma{
+    margin-bottom: 40px;
+    padding-left: 2px;
+    padding-right: 1px;
+    position:relative;
+    text-align: center;
+    background: -webkit-linear-gradient(rgb(211, 171, 70),rgb(231, 230, 223));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+body{
+    
+    background: -webkit-linear-gradient(rgb(38, 37, 38), rgb(37, 37, 37));
+
+    margin-bottom: 300px;
+}
+.suscribete {
+    font-size: 50px;
+    font-family: 'Noto Serif', serif;
+    background: -webkit-linear-gradient(rgb(211, 171, 70),rgb(231, 230, 223));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    position: absolute;
+    top: 20%;
+    left: 7%;
+}
+
+  
+  h2{
+    padding:40px;
+    font-weight:lighter;
+    text-transform:uppercase;
+    color:#414141;
+  }
+  
+  .formulario, .formulario h1, .formulario .input-box, .input-box input, .input-box input::placeholder, .input-box i, .formulario .boton, .boton label input, .boton a, .boton a:hover, .formulario .btn, .formulario .register-link, .register-link p a, .register-link p a:hover{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  .formulario{
+    margin-top: -450px;
+    margin-left: 158px;
+    width: 320px;
+    height: 400px;
+    backdrop-filter: blur(20px);
+    color: white;
+    border-radius: 5px;
+    padding: 30px 40px;
+  }
+  .formulario h1{
+    font-size: 36px;
+    text-align: center;
+    margin-left: 15px;
+    font-family: 'Noto Serif', serif;
+    background: -webkit-linear-gradient(rgb(211, 171, 70),rgb(231, 230, 223));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+  }
+  .formulario .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+
+  }
+  .input-box input{ 
+    margin-left: 8px;
+    width: 95%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    padding: 20px 45px 20px 20px;
+    position: absolute;
+  }
+  .input-box input:hover{ 
+    border-color: rgb(119, 119, 119);
+    color: rgb(255, 255, 255);
+  }
+  .input-box input:focus{ 
+    border-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+  .input-box input::placeholder{
+    border-color: #fff;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+  }
+  .input-box input:focus::placeholder {
+    color: transparent; /* Hace que el texto del placeholder sea transparente cuando el input tiene foco */
+}
+  .input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    font-size: 13px;
+    
+  }
+  .formulario .boton{
+    width: 90%;
+    font-size: 13px;
+    margin: -10px 15px 15px;
+  }
+  .boton label input{
+    accent-color: #fff;
+    margin-right: 3px;
+  }
+
+  .formulario .btn {
+    width: 30%;
+    height: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 13px;
+    color: #333;
+    font-weight: 600;
+    position: absolute;
+  }
+  .formulario .btn:hover {
+    background: #e0e0e0;
+    color: #333;
+  }
+  .formulario .btn:active{
+    background: #cac6c6;
+    color: #333;
+  }
+  .formulario .register-link{
+    font-size: 12px;
+    text-align: center;
+    margin: 20px 0 15px;
+  }
+  .register-link p a{
+    color:#fff;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .register-link p a:hover{
+    text-decoration: underline;
+  }
+
+.nombreusuario{
+    margin-top: 9px;
+    margin-left: 200px;
+}
+.correologo{
+    margin-top: -141px;
+    margin-left: 200px;
+}
+.candado{
+    margin-top: 87px;
+    margin-left: 200px;
+}
+
+
+.primeralinea {
+    height: 5px;
+    border-radius: 5px;
+    width: 68%;
+    margin-top: 55px;
+    margin-left: 360px;
+    opacity: 100%;
+    background: -webkit-linear-gradient(rgb(211, 171, 70),rgb(231, 230, 223));
+}
+
+
+
+.imagensub{
+    position: absolute;
+    top: 28%;
+    left: 8%;
+    margin-left: 470px;
+    width: 5%;
+}
+
+
+@property --rotate {
+    syntax: "<angle>";
+    initial-value: 132deg;
+    inherits: false;
+  }
+  
+  :root {
+    --card-height: 65vh;
+    --card-width: calc(var(--card-height) / 1.3);
+  }
+
+.card1 {
+    margin-top: 115px;
+    margin-left: 158px;
+    background: linear-gradient(to bottom, #464646, #111111);
+
+  width: var(--card-width);
+  height: var(--card-height);
+  padding: 3px;
+  position: relative;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  font-size: 1.5em;
+  color: rgb(88 199 250 / 0%);
+  font-family: cursive;
+}
+.card1::before {
+    content: "";
+    width: 104%;
+    height: 103%;
+    border-radius: 8px;
+    background-image: linear-gradient(var(--rotate), rgb(211, 171, 70), rgb(231, 230, 223) 43%, rgb(211, 171, 70));
+    position: absolute;
+    z-index: -1;
+    top: -1.3%;
+    left: -2%;
+    animation: spin 2.5s linear infinite;
+  }
+  
+  .card1::after {
+    position: absolute;
+    content: "";
+    top: calc(var(--card-height) / 6);
+    left: 0;
+    right: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    transform: scale(0.8);
+    filter: blur(calc(var(--card-height) / 6));
+    background-image: linear-gradient(var(--rotate), rgb(211, 171, 70), rgb(231, 230, 223) 43%, rgb(211, 171, 70));
+    opacity: 1;
+    transition: opacity .5s;
+    animation: spin 2.5s linear infinite;
+  }
+  
+  
+  
+  @keyframes spin {
+    0% {
+      --rotate: 0deg;
+    }
+    100% {
+      --rotate: 360deg;
+    }
+  }
+  
+  @property --rotate {
+    syntax: "<angle>";
+    initial-value: 132deg;
+    inherits: false;
+  }
+  
+  .card2 {
+    --card-height: 54vh;
+    --card-width: calc(var(--card-height) / 0.84);
+  }
+
+.card2 {
+    margin-top: -365px;
+    margin-left: 722px;
+    background: linear-gradient(to bottom, #383838, #161616);
+
+  width: var(--card-width);
+  height: var(--card-height);
+  padding: 3px;
+  position: relative;
+  border-radius: 6px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  font-size: 1.5em;
+  color: rgb(88 199 250 / 0%);
+  font-family: cursive;
+}
+.card2:before {
+    content: "";
+    width: 103%;
+    height: 103%;
+    border-radius: 8px;
+    background-image: linear-gradient(var(--rotate), rgb(211, 171, 70), rgb(231, 230, 223) 43%, rgb(211, 171, 70));
+    position: absolute;
+    z-index: -1;
+    top: -1.3%;
+    left: -1.5%;
+    animation: spin 2.5s linear infinite;
+  }
+  
+  .card2:after {
+    position: absolute;
+    content: "";
+    top: calc(var(--card-height) / 6);
+    left: 0;
+    right: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    transform: scale(0.8);
+    filter: blur(calc(var(--card-height) / 6));
+    background-image: linear-gradient(var(--rotate), rgb(211, 171, 70), rgb(231, 230, 223) 43%, rgb(211, 171, 70));
+    opacity: 1;
+    transition: opacity .5s;
+    animation: spin 2.5s linear infinite;
+  }
+  
+  
+  @keyframes spin {
+    0% {
+      --rotate: 0deg;
+    }
+    100% {
+      --rotate: 360deg;
+    }
+  }
+  
+
+
+.sobrenosotros{
+    font-size: 60px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: -webkit-linear-gradient(rgb(255, 220, 132), rgb(233, 232, 228));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    position: absolute;
+    top: 150%;
+    left: 34.5%;
+    transition: 0.5s;
+}
+.flechamaxim{
+    position: absolute;
+    top: 177%;
+    left: 34%;
+}
+.especialidad2{
+    position: absolute;
+    top: 185%;
+    left: 25.3%;
+    color: white;
+    font-size: 20px;
+}
+
+.nombremaxim{
+    position: absolute;
+    font-weight: bold;
+    top: 173%;
+    left: 21.5%;
+    width: 20%;
+    background: -webkit-linear-gradient(rgb(211, 171, 70),rgb(231, 230, 223));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+}
+.flechaalejandro{
+    position: absolute;
+    top: 159.5%;
+    left: 34%;
+}
+.especialidad{
+    position: absolute;
+    top: 167%;
+    left: 21%;
+    color: white;
+    font-size: 20px;
+}
+.nombrealejandro{
+    position: absolute;
+    font-weight: bold;
+    top: 155%;
+    left: 17.6%;
+    width: 20%;
+    background: -webkit-linear-gradient(rgb(211, 171, 70),rgb(231, 230, 223));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+}
+.flechaismail{
+    position: absolute;
+    top: 195%;
+    left: 34%;
+}
+.especialidad3{
+    position: absolute;
+    top: 203%;
+    left: 22.7%;
+    color: white;
+    font-size: 20px;
+}
+.nombreismail{
+    position: absolute;
+    font-weight: bold;
+    top: 191%;
+    left: 20.8%;
+    width: 20%;
+    background: -webkit-linear-gradient(rgb(211, 171, 70),rgb(231, 230, 223));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+}
+.segundalinea{
+    background: -webkit-linear-gradient(rgb(211, 171, 70),rgb(231, 230, 223));
+    height: 6px;
+    border-radius: 5px;
+    width: 78%;
+    top: 230%;
+    margin-left: 45px;
+    opacity: 100%;
+    position: absolute;
+}
+.flecha{
+    position: absolute;
+    top: 165%;
+    left: 45%;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+
+
+.contacte{
+    position: absolute;
+    top: 235%;
+    left: 10.5%;
+    margin-left: 200px;
+    width: 350px;
+    height: 30px;
+    font-size: 27px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: -webkit-linear-gradient(rgb(211, 171, 70),rgb(231, 230, 223));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+}
+.soporte{
+    position: absolute;
+    top: 241%;
+    left: 10.5%;
+    margin-left: 200px;
+}
+.correo{
+    position: absolute;
+    top: 242%;
+    left: 10.5%;
+    margin-left: 280px;
+    font-size: 18px;
+    color: white;
+}
+.numero{
+    position: absolute;
+    top: 247%;
+    left: 10.5%;
+    margin-left: 280px;
+    font-size: 18px;
+    color: white;
+}
+.redessociales{
+    position: absolute;
+    top: 235%;
+    left: 13.5%;
+    margin-left: 698px;
+    width: 300px;
+    height: 30px;
+    font-size: 27px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: -webkit-linear-gradient(rgb(211, 171, 70),rgb(231, 230, 223));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+}
+.instagram{
+    position: absolute;
+    top: 242%;
+    left: 15.5%;
+    margin-left: 630px;
+}
+.instagram:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.twitter:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.tiktok:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.twitter{
+    position: absolute;
+    top: 242.5%;
+    left: 13.6%;
+    margin-left: 750px;
+}
+.tiktok{
+    position: absolute;
+    top: 242.3%;
+    left: 11.3%;
+    margin-left: 870px;
+}
+.ventajas{
+    font-family: 'Acme', sans-serif;
+    font-weight: bolder;
+    position: absolute;
+    color: rgb(102, 253, 97);
+    top: 49.5%;
+    left: 56.3%;
+    font-size: 27px;
+    animation: increaseFontSize 1.4s linear infinite;
+}
+@keyframes increaseFontSize {
+    0% {
+        font-size: 26px; /* Tamaño de fuente inicial */
+    }
+    50% {
+        font-size: 27px; /* Tamaño de fuente en la mitad de la animación */
+    }
+    100% {
+        font-size: 26px; /* Tamaño de fuente al final de la animación (vuelve al tamaño original) */
+    }
+}
+.imgVentajas{
+    position: absolute;
+    top: 49%;
+    left: 80%;
+}
+.banderas{
+    width: 100%;
+    display: none;
+}
+.participantes{
+    display: none;
+}
+.chile{
+    position: absolute;
+    top: 161.5%;
+    left: 17.5%;
+}
+.rusia{
+    position: absolute;
+    top: 179.5%;
+    left: 21.5%;
+}
+.marruecos{
+    position: absolute;
+    top: 197.5%;
+    left: 20.9%;
+}
+.parrafo2 {
+    font-size: 22px;
+    font-family: 'Acme', sans-serif;
+    font-weight: lighter;
+    position: absolute;
+    color: white;
+    top: 58%;
+    left: 57%;
+    width: 28%;
+    opacity: 0;
+    animation: fadeInDelay 2s forwards;
+}
+
+.parrafo3 {
+    font-size: 22px;
+    font-family: 'Acme', sans-serif;
+    font-weight: lighter;
+    position: absolute;
+    color: white;
+    top: 66%;
+    left: 57%;
+    width: 28%;
+    opacity: 0;
+    animation: fadeInDelay 3s forwards;
+}
+
+.parrafo4 {
+    font-size: 22px;
+    font-family: 'Acme', sans-serif;
+    font-weight: lighter;
+    position: absolute;
+    color: white;
+    top: 74.5%;
+    left: 57%;
+    width: 28%;
+    opacity: 0;
+    animation: fadeInDelay 4s forwards;
+}
+
+.parrafo5 {
+    font-size: 22px;
+    font-family: 'Acme', sans-serif;
+    font-weight: lighter;
+    position: absolute;
+    color: white;
+    top: 82.5%;
+    left: 57%;
+    width: 28%;
+    opacity: 0;
+    animation: fadeInDelay 5s forwards;
+}
+
+.parrafo6 {
+    font-size: 22px;
+    font-family: 'Acme', sans-serif;
+    font-weight: lighter;
+    position: absolute;
+    color: white;
+    top: 90.5%;
+    left: 57%;
+    width: 28%;
+    opacity: 0;
+    animation: fadeInDelay 6s forwards;
+}
+
+
+@keyframes fadeInDelay {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.tick{
+    margin-top: -295px;
+    margin-left: 980px;
+    opacity: 0;
+    animation: fadeInDelay 2s forwards;
+    position: absolute;
+}
+.tick2{
+    margin-top: -238px;
+    margin-left: 1078px;
+    opacity: 0;
+    animation: fadeInDelay 3s forwards;
+    position: absolute;
+}
+.tick3{
+    margin-top: -180px;
+    margin-left: 1055px;
+    opacity: 0;
+    animation: fadeInDelay 4s forwards;
+    position: absolute;
+}
+.tick4{
+    margin-top: -125px;
+    margin-left: 1085px;
+    opacity: 0;
+    animation: fadeInDelay 5s forwards;
+    position: absolute;
+}
+.tick5{
+    margin-top: -70px;
+    margin-left: 1123px;
+    opacity: 0;
+    animation: fadeInDelay 6s forwards;
+    position: absolute;
+}
+.lineavertical {
+    top: 32%;
+    height: 80%;
+    left: 47.5%;
+    position: absolute;
+    width: 8px; /* Ancho de la línea vertical */
+    background-image: -webkit-linear-gradient(rgb(211, 171, 70), rgb(231, 230, 223)); /* Aplicar gradiente como fondo */
+    border-radius: 50%;
+    border: 1.5px solid black;
+}
+
+.no-pointerevents .form-3 p:nth-child(1):before {
+    display: none;
+}
+
+.collapse{
+    width: 20%;
+}
+#probando {
+    margin-top: 410px;
+    margin-left: 525px;
+    font-size: 15px;
+    font-family: 'Acme', sans-serif;
+    font-weight: lighter;
+    color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.05s ease, opacity 0.6s ease, transform 0.6s ease;
+    transform: translateY(300px);
+    opacity: 0;
+    width: 40%;
+}
+#probando.show {
+    max-height: 500px;
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+@media (max-width: 390px) {
+    /* Estilos específicos para pantallas más pequeñas */
+    .suscribete {
+      font-size: 25px;
+      margin-top: 71px;
+      margin-left: 20px;
+    }
+    .primeralinea{
+        width: 40%;
+        margin-left: 210px;
+        margin-top: 40px;
+    }
+    .card1{
+        margin-left: 12px;
+        margin-top: 45px;
+        width: 340px;
+        height: 500px;
+    }
+    .formulario{
+        width: 80%;
+        margin-top: -485px;
+        height: 100%;
+    }
+    .formulario h1{
+        font-size: 32px;
+        margin-left: 10px;
+    }
+    .card2{
+        margin-left: 18px;
+        --card-height: 48vh;
+        margin-top: 150px;
+        width: 330px;
+    }
+    .input-box input::placeholder{
+        font-size: 14px;
+      }
+    .parrafo2{
+        font-size: 17px;
+    }
+    .parrafo3{
+        font-size: 17px;
+    }
+    .parrafo4{
+        font-size: 17px;
+    }
+    .parrafo5{
+        font-size: 17px;
+    }
+    .parrafo6{
+        font-size: 17px;
+    }
+    .formulario{
+        margin-left: 30px;
+    }
+    .nombreusuario{
+        margin-left: 180px;
+    }
+    .candado{
+        margin-left: 180px;
+    }
+    .correologo{
+        margin-left: 180px;
+    }
+    .lineavertical{
+        display: none;
+    }
+    .ventajas{
+        margin-top: 500px;
+        margin-left: -90px;
+        width: 50%;
+    }
+    .imgVentajas{
+        margin-top: 510px;
+        margin-left: -270px;
+        width: 65px;
+        height: 65px;
+    }
+    .parrafo2{
+        margin-top:530px;
+        margin-left: -160px;
+    }
+    .parrafo3{
+        margin-top: 510px;
+        margin-left: -160px;
+    }
+    .parrafo4{
+        margin-top: 490px;
+        margin-left: -160px;
+    }
+    .parrafo5{
+        margin-top: 470px;
+        margin-left: -160px;
+    }
+    .parrafo6{
+        margin-top: 450px;
+        margin-left: -160px;
+    }
+    .tick{
+        margin-top: -290px;
+        margin-left: 225px;
+        width: 40px;
+        height: 40px;
+    }
+    .tick2{
+        margin-top: -240px;
+        margin-left: 300px;
+        width: 40px;
+        height: 40px;
+    }
+    .tick3{
+        margin-top: -185px;
+        margin-left: 285px;
+        width: 40px;
+        height: 40px;
+    }
+    .tick4{
+        margin-top: -135px;
+        margin-left: 308px;
+        width: 40px;
+        height: 40px;
+    }
+    .tick5{
+        margin-top: -70px;
+        margin-left: 130px;
+        width: 40px;
+        height: 40px;
+    }
+    .sobrenosotros{
+        margin-top: 570px;
+        margin-left: -65px;
+        width: 100%;
+    }
+    .flecha{
+        margin-top: 550px;
+        margin-left: -30px;
+    }
+    .segundalinea{
+            margin-top: 1300px;
+            margin-left: 0px;
+            width: 93.5%;
+    }
+    .contacte{
+        margin-top: 1280px;
+        font-size: 16px;
+        margin-left: 0px;
+    }
+    .redessociales{
+        margin-top: 1280px;
+        margin-left: 220px;
+        font-size: 16px;
+    }
+    .instagram{
+        margin-top: 1250px;
+        margin-left: 200px;
+        width: 35px;
+        height: 35px;
+    }
+    .twitter{
+        margin-top: 1250px;
+        margin-left: 250px;
+        width: 35px;
+        height: 35px;
+    }
+    .tiktok{
+        margin-top: 1250px;
+        margin-left: 300px;
+        width: 35px;
+        height: 35px;
+    }
+    .soporte{
+        margin-top: 1270px;
+        margin-left: -10px;
+        width: 40px;
+        height: 40px;
+    }
+    .correo{
+        margin-top: 1265px;
+        margin-left: 40px;
+        font-size: 13px;
+    }
+    .numero{
+        margin-top: 1248px;
+        margin-left: 40px;
+        font-size: 13px;
+    }
+    .chile{
+        margin-top: 1260px;
+        margin-left: -210px;
+        width: 50px;
+        height: 50px;
+    }
+    .rusia{
+        margin-top: 1280px;
+        margin-left: -210px;
+        width: 50px;
+        height: 50px;
+    }
+    .marruecos{
+        margin-top: 1290px;
+        margin-left: -210px;
+        width: 50px;
+        height: 50px;
+    }
+    #probando {
+        margin-top: 1275px;
+        margin-left: 100px;
+        width: 60%;
+        font-size: 16px;
+    }
+    .flechaalejandro{
+        top: 159.5%;
+        left: 34%;
+    }
+    .especialidad{
+        top: 167%;
+        left: 21%;
+
+    }
+    .nombrealejandro{
+        top: 230%;
+        left: 5%;
+        width: 100%;
+        font-size: 20px;
+
+    }
+}
